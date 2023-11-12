@@ -1,0 +1,24 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0810452B6D512F8E0DD',
+    participant: undefined
+  },
+  messageTimestamp: 1698792933,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3004499576',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3004499576',
+  from: '573123524512'
+}
