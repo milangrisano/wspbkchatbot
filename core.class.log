@@ -2,23 +2,445 @@
   key: {
     remoteJid: '573123524512@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0810452B6D512F8E0DD',
+    id: '3AF3D4A9409AE7852658',
     participant: undefined
   },
-  messageTimestamp: 1698792933,
+  messageTimestamp: 1700151303,
   pushName: 'Enrique Angrisano',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '3004499576',
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '3004499576',
+  body: 'hola',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a0e0401c-1ae1-494c-9a84-723e3c1216f1',
+  keyword: 'key_3ac2a3cc-c8cf-43f9-81e1-0167ad497e77',
+  answer: 'Hola, bienvenido a *WSP BKApp*\n' +
+    '\n' +
+    'Digita el numero de la opcion que deseas seleccionar\n' +
+    '*1* - Registrarse\n' +
+    '*2* - Ingresar a su *Banko*\n' +
+    '*3* - Recuperar su usuario\n' +
+    '*4* - Recuperar su contraseña',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a2a52482c354ee5edfc69891155b2ee8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4E64FBB1CEC1B25BDE',
+    participant: undefined
+  },
+  messageTimestamp: 1700151310,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f92d4322-92b4-4df3-aed6-ce345a387588',
+  keyword: 'key_bd6c28ee-82dd-4514-8932-ffd7e80fcd6e',
+  answer: 'Escribe tu nombre completo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'ed208a3f9649042044639a68c9f0a004'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7C194B117B7FECA76F',
+    participant: undefined
+  },
+  messageTimestamp: 1700151389,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'Enrique Angrisano',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Enrique Angrisano',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_223a3586-ca5e-4bca-bc52-76fb630c6c09',
+  keyword: 'ans_f92d4322-92b4-4df3-aed6-ce345a387588',
+  answer: 'Escriba el correo electronico con el que desea registrarse',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07077ed8328f9b3bb3b2fadb7477695a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A2503E9867D5A6A2714',
+    participant: undefined
+  },
+  messageTimestamp: 1700151409,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'milangrisano@gmail.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'milangrisano@gmail.com',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_df770369-0492-4704-a31c-53fdeaf72c16',
+  keyword: 'ans_223a3586-ca5e-4bca-bc52-76fb630c6c09',
+  answer: 'Escriba una contraseña de 6 digitos con al menos una mayuscula, una miniscula, un caracter especial y un numero',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '00e7730093d68c89630db418d2abea46'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A4B64CBAB8BE804012B',
+    participant: undefined
+  },
+  messageTimestamp: 1700151412,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'shfgab',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'shfgab',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f11c90d5-97a5-4002-a1f5-be3c5793f390',
+  keyword: 'ans_df770369-0492-4704-a31c-53fdeaf72c16',
+  answer: 'Confirme su contraseña',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3d1cf3e0382c4eb50cf63bf3c9418435'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3ABA013144E9F6800A0D',
+    participant: undefined
+  },
+  messageTimestamp: 1700151414,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'iasugf',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'iasugf',
+  from: '573123524512'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A3EC5CA8E212EE96568',
+    participant: undefined
+  },
+  messageTimestamp: 1700151419,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a0e0401c-1ae1-494c-9a84-723e3c1216f1',
+  keyword: 'key_3ac2a3cc-c8cf-43f9-81e1-0167ad497e77',
+  answer: 'Hola, bienvenido a *WSP BKApp*\n' +
+    '\n' +
+    'Digita el numero de la opcion que deseas seleccionar\n' +
+    '*1* - Registrarse\n' +
+    '*2* - Ingresar a su *Banko*\n' +
+    '*3* - Recuperar su usuario\n' +
+    '*4* - Recuperar su contraseña',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a2a52482c354ee5edfc69891155b2ee8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A558E9F06051424CFFB',
+    participant: undefined
+  },
+  messageTimestamp: 1700151421,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6a8ecc0d-2779-4195-a1a6-5f6fe177a544',
+  keyword: 'key_ac3c6c7c-5c06-4368-9aef-7d32b71fa3ac',
+  answer: 'Escriba su correo electronico',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a702999d937e5c771fbb03d86343b2e3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF4D53BDD4C90C27260',
+    participant: undefined
+  },
+  messageTimestamp: 1700151433,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'milangrisano@gmail.com',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'milangrisano@gmail.com',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4b9980b0-1143-48c0-88c4-a1fb23c1b7f0',
+  keyword: 'ans_6a8ecc0d-2779-4195-a1a6-5f6fe177a544',
+  answer: 'Escriba una contraseña',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'd114c6473102f18d4c192b6dee1ee6af'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3ABCCAC1EF4AA684311B',
+    participant: undefined
+  },
+  messageTimestamp: 1700151436,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'fdjsfhsd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'fdjsfhsd',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9e01bdb0-f5e1-4dcc-b670-711ca845dc81',
+  keyword: 'ans_4b9980b0-1143-48c0-88c4-a1fb23c1b7f0',
+  answer: 'Bienvenido a su Bankomunal *NOMBRE DEL BANKO*\n' +
+    'Que Operacion desea realizar?\n' +
+    'Escriba la opcion que desea seleccionar\n' +
+    '*- Acciones*\n' +
+    '*- Creditos*\n' +
+    '*- Ganacias*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e9c213ed837dbfb97fb1f7635c8ef373'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3A32DDFC01BF08CD708C',
+    participant: undefined
+  },
+  messageTimestamp: 1700151441,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'acciones',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'acciones',
+  from: '573123524512'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e9902982-0578-4dc7-a01e-da0af436075c',
+  keyword: 'key_9a3945b3-b790-4c6d-8212-6bfc5d134106',
+  answer: 'Que operacion desae realiza?\n' +
+    'escriba la opcion deseada con la palabra resaltada en negritas\n' +
+    '*Compra* de Acciones\n' +
+    '*Retiro* de acciones',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'de2c0dccef442bdcce8c70ba3888a93f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573123524512@s.whatsapp.net',
+    fromMe: false,
+    id: '3AFF4BC5132BC6D196DF',
+    participant: undefined
+  },
+  messageTimestamp: 1700151445,
+  pushName: 'Enrique Angrisano',
+  broadcast: false,
+  message: Message {
+    conversation: 'compra',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'compra',
   from: '573123524512'
 }
